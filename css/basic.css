@@ -481,17 +481,28 @@ footer button { border:0;
 
 
 /* #section04 시작 */
-#section04 .txt h4 { position: relative;
-  font-size: 2.5vw; 
-  margin-bottom:25%;
- }
-#section04 .contactIcon { left:0%; 
-  width:90%;
-  height:350px;
+
+
+ #section04 .contactIcon ul li { margin-bottom:10px;
   }
-#section04 .contactIcon ul li img { width:125px; }
+
+#section04 .contactIcon ul li:nth-child(2) { padding-left:0%; }
+#section04 .contactIcon ul li:nth-child(3) { padding-left:0%; }
+
+#section04 .contactIcon ul li span { margin-left:20px; }
+
+#section04 .contactTxt .con_Txt { right:20%; }
+
+#section04 .contactTxt .con_Txt li:nth-child(1) { font-size:50px;
+  border-bottom:2px solid #02220c;
+}
+#section04 .contactTxt .con_Txt li:nth-child(2) {font-size:30px; 
+  color:#2c573a;
+}
 
 }
+
+/* #section04 끝 */
 
 
 
@@ -580,21 +591,57 @@ footer button { border:0;
   margin:20% auto 80px;
   }
 
-/* #section04 시작 */
-  #section04 .txt h4 { font-size:25px; }
-  #section04 .contactIcon { height:500px; }
-   #section04 .contactIcon ul { position: absolute;
-    top:45%;
-    left:30%;
-    }
 
-   #section04 .contactIcon ul li { float:none;
-    margin-bottom:35%;
-    margin-right:0;
+  .slick-dots { bottom:14%;
+    left:70%;
   }
-  #section04 .contactIcon ul li span { font-size:13px; }
+  
+  .sliderBtn { position:absolute;
+    bottom:14%;
+    left:95%;
+    width:16px;
+    height:16px;
+    background: url('../img/stop.png') no-repeat; 
+    text-indent: -9999px;
+    cursor: pointer;
+  }
 
-  #section04 .contactIcon ul li:last-child { margin-bottom: 0; }
+/* #section04 시작 */
+
+#section04 .txt h4 { position: relative;
+  font-size: 30px; 
+  }
+ #section04 .contactIcon { display: block; }
+ #section04 .contactIcon ul { }
+ #section04 .contactIcon ul li { position: relative;
+  margin-bottom:20px;
+  }
+#section04 .contactIcon ul li:nth-child(1) { }
+#section04 .contactIcon ul li:nth-child(2) { padding-left:0%; }
+#section04 .contactIcon ul li:nth-child(3) { padding-left:0%; }
+#section04 .contactIcon ul li img { width:100px; }
+#section04 .contactIcon ul li span { 
+top:50%;
+margin-left:20px;
+transform: translateY(-50%);
+font-weight: bold;
+}
+#section04 .contactTxt { }
+#section04 .contactTxt .con_Txt { position: absolute; 
+  top:100%;
+  right:25%;
+}
+#section04 .contactTxt .con_Txt li {  }
+#section04 .contactTxt .con_Txt li:nth-child(1) { font-size:50px;
+  border-bottom:2px solid #02220c;
+}
+#section04 .contactTxt .con_Txt li:nth-child(2) {font-size:30px; 
+  color:#2c573a;
+}
+#section04 .contactTxt .con_Txt li:nth-child(3) { font-size: 40px; }
+
+
+/* #section04 끝 */
 
 
 }

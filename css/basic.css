@@ -406,7 +406,7 @@ footer button { border:0;
 /* #section01 시작 */
   #section01 .txt { margin-left:30px; }
   #section01 .txt h3 { font-size: 35px; }
-  #section01 .txt h3 span { font-size: 45; }
+  #section01 .txt h3 span { font-size: 45px; }
   #section01 .txt p { font-size:20px;
     margin-top:30px;
     }
@@ -450,7 +450,7 @@ footer button { border:0;
   font-size: 18px;
 }
 
- #section03 .project .proBtn { margin-top:none; }
+ #section03 .project .proBtn { margin-top:0px; }
  #section03 .project .proBtn ul { position: relative;
   top:-70px;
   left:60%;
@@ -573,7 +573,7 @@ footer button { border:0;
   #section03 .project .proTxt p.sk_title { margin-top:0px;
     font-size: 15px;
   }
-  #section03 .project .proBtn { margin-top:none; }
+  #section03 .project .proBtn { margin-top:0px; }
   #section03 .project .proBtn ul { position: relative;
     top:-10px;
     left:25%;
